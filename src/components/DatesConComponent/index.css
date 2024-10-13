@@ -1,0 +1,48 @@
+.month-card {
+  border: 2.05px solid;
+
+  width: 48vw;
+  padding: 13px;
+
+  border-radius: 12px;
+  margin-top: 20px;
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(19, 18, 18, 0.28) 2.05%,
+    rgba(53, 51, 51, 0) 92.82%
+  );
+  backdrop-filter: blur(116px);
+  box-shadow: -6.82px -6.82px 20.46px 0px #28262675 inset;
+  background: linear-gradient(
+    142.42deg,
+    rgba(114, 104, 117, 0.21) 1.79%,
+    rgba(117, 116, 117, 0) 100.42%
+  );
+}
+
+.dates-con {
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+  flex-wrap: wrap;
+}
+
+.date-item {
+  gap: 5px;
+  width: 72px;
+  background-color: #343243;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+p {
+  line-height: 0;
+}
+
+.emoji-displayed {
+  height: 25px;
+  width: 25px;
+}

@@ -1,0 +1,49 @@
+.home-con {
+  height: 140vh;
+  background-color: #1c1a28;
+}
+
+.title {
+  color: #ffbe38;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: Inter;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.emoji-desc-con {
+  background: linear-gradient(
+    145.12deg,
+    rgba(114, 104, 117, 0.21) 1.78%,
+    rgba(117, 116, 117, 0) 125.71%
+  );
+  border: 2.05px solid;
+
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(90, 86, 86, 0.28) 2.05%,
+    rgba(0, 0, 0, 0) 92.82%
+  );
+
+  height: 20vh;
+
+  border-radius: 10px;
+}
+
+.emoji-desc-con {
+  display: flex;
+  width: max-content;
+  border: 2.05px solid;
+
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(90, 86, 86, 0.28) 2.05%,
+    rgba(0, 0, 0, 0) 92.82%
+  );
+
+  height: 30vh;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}

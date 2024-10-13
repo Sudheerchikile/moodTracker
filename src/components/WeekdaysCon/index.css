@@ -1,0 +1,36 @@
+.drop-down-con {
+  background: linear-gradient(
+    145.12deg,
+    rgba(114, 104, 117, 0.21) 1.78%,
+    rgba(117, 116, 117, 0) 125.71%
+  );
+  border: 2.05px solid;
+
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(90, 86, 86, 0.28) 2.05%,
+    rgba(0, 0, 0, 0) 92.82%
+  );
+
+  height: 20vh;
+  width: 30vw;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.drop-down {
+  background: #42404d;
+  height: 5vh;
+  width: 135px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  border: 1px solid #4e5d72;
+}
+
+.dropdowns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
